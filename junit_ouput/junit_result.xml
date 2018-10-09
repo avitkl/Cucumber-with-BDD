@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.156755">
+    <testcase classname="Test Tagged Hooks" name="This is first test" time="0.154451">
+        <system-out>
+            <![CDATA[Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Test Tagged Hooks" name="This is second test" time="0.001076">
+        <system-out>
+            <![CDATA[Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Test Tagged Hooks" name="This is third test" time="0.001228">
+        <system-out>
+            <![CDATA[Given this is the first step................................................passed
+When this is the second step................................................passed
+Then this is the third step.................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
