@@ -13,6 +13,7 @@ import org.junit.runner.RunWith;
 		,strict=false // if it is true then test case will start to execute but if there is no step definition for any step then it will throw PendingException
 		,dryRun=false // if it true then test case will not executed but it will check all the steps contains steps definitions
 		//,tags= {"~@SmokeTest","~@RegressionTest","~@End2End"}
+	        ,plugin= {"timeline:<report folder>"} //For a visual representation of threads, add the timeline report using the plugin option of CucumberOptions annotation on a TestNG runner.
 		)
 
 public class TestRunner {
